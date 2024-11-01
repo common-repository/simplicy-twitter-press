@@ -1,0 +1,47 @@
+/* twitter */
+
+.twitt-lister { width:100%; margin-top:10px;}
+.twitter-follow-button { width:100%; padding-top:8px; padding-left:65px;}
+.twitt-follow { width:auto; height:35px; background:url(../images/twitter_bird.png) no-repeat left; color:#666666; padding-bottom:5px;}
+#friends{padding: 5px;}
+.tweet, 
+.query { margin:0; padding:0;
+
+}
+
+	.tweet_list {
+	
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow-y: hidden;
+		width:100%;
+
+	}
+	
+		.tweet_list .awesome,
+		.tweet_list .epic {
+			text-transform: uppercase;
+		}
+		
+		.tweet_list li {
+		
+			overflow-y: auto;
+			overflow-x: hidden;
+			padding: 5px;
+			list-style-type: none;
+			border-bottom:1px solid #dedede;
+			
+		}
+		
+			
+		
+		
+		
+		.tweet_list .tweet_avatar {
+			padding-right: 5px; float: left;
+		}
+		
+			.tweet_list .tweet_avatar img {
+				vertical-align: middle; 
+		}
